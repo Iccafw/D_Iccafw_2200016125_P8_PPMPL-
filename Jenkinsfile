@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Iccafw/2200016125_D_PPMPL_8.git'
+                git branch: 'main', url: 'https://github.com/Iccafw/D_Iccafw_2200016125_P8_PPMPL-.git'
             }
         }
         stage('Install Dependencies') {
